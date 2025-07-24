@@ -85,4 +85,39 @@
 /* deals section */
 .deals_image_container{
     display: flex;
+    margin: 120px 150px 120px 150px;
+    gap: 28px;
+    align-content: center;
 }
+.deals_img_01{
+    background-image: url(../media/deal-bloom.png);
+    width: 360px;
+    height: 200px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+
+}
+.deals_img_02{
+    background-image: url(../media/deal-ana.png);
+    width: 360px;
+    height: 200px;
+
+}
+.deals_img_03{
+    background-image: url(../media/deal-zabo.png);
+    width: 750px;
+    height: 425px;
+    margin-bottom: -5px;
+
+}
+
+/* join section */
+.join{
+    background-image: url(../media/news-letter-bg.png);
+    height: 530px;
+    text-align: center;
+    align-content: center;
+}
+
+/* footer styles */
+
