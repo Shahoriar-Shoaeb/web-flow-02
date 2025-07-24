@@ -13,6 +13,11 @@
     font-weight: normal;
     font-style: normal;
   }
+
+  /* shard styles */
+  .ash_text{
+    color: #8987A1;
+  }
 /* nav styles */
 .navbar{
     display: flex;
@@ -120,4 +125,17 @@
 }
 
 /* footer styles */
+.footer_container{
+    display: flex;
+    margin: 50px 160px 50px 160px;  
+}
+.footer_sub_container{
+    display: flex;
+    /* gap: 110px; */
+    /* justify-content: space-around; */
+}
+.footer_logo{
+    max-width: 360px;
+    margin-bottom: 70px;
+}
 
