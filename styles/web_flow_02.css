@@ -1,3 +1,18 @@
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
 /* nav styles */
 .navbar{
     display: flex;
@@ -13,7 +28,61 @@
 .menu_cart{
     display: flex;
     gap: 10px;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
+/* banner styles */
+.banner_container{
+    display: flex;
+    align-items: center;
+    margin: 0px 150px 120px 100px;
+}
+.banner_text{
+    padding-top: 160px;
+    min-width: 540px;
+}
+.banner_text_title{
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: -20px;
+}
+.banner_text_description{
+    font-size: 22px;
+}
+.banner_image{
+    padding-top: 105px;
+}
+
+/* plants section */
+.plants_section_container{
+    margin: 0px 150px 0px 150px;
+    
+}
+.plants_section_text{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.plants_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.plants_footer{
+    justify-items: center;
+    margin-bottom: 30px;
+}
+
+/* plants lover section */
+.plants_lover_container{
+    display: flex;
+    margin: 210px 150px 130px 150px;
+}
+.plants_lover_text_container{
+    padding: 40px 0px 40px 60px;
+}
+
+/* deals section */
+.deals_image_container{
+    display: flex;
+}
