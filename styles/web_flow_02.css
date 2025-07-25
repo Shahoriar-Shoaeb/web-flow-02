@@ -16,7 +16,7 @@
 
   /* shard styles */
   .ash_text{
-    color:  #00000050 ;
+    color:  #00000065 ;
   
   }
 .tomato_text{
@@ -25,7 +25,7 @@
 .p_btn{
     background-color: #E95A08;
     border: none;
-    color: antiquewhite;
+    color: #FFFFFF;
     width: 270px;
     height: 50px;
     font-weight: 600;
@@ -58,7 +58,8 @@
     margin: 0px 150px 120px 100px;
 }
 .banner_text{
-    padding-top: 160px;
+    margin-top: 160px;
+    /* padding-top: 160px; */
     min-width: 540px;
 }
 .banner_text_title{
@@ -73,7 +74,7 @@
     padding-top: 105px;
 }
 
-/* plants section */
+/* plants styles */
 .plants_section_text{
     margin-bottom: 50px;
     text-align: center;
@@ -102,7 +103,7 @@
 
 }
 
-/* plants lover section */
+/* plants lover styles */
 .badge{
     margin-top: -950px ;
     margin-left: 497px ;
@@ -115,6 +116,8 @@
 }
 .plants_lover_text_container{
     padding: 40px 0px 40px 60px;
+    font-weight: 400 ;
+    font-size: 22px;
 }
 .plants_lover_header{
     font-size: 50px;
@@ -122,13 +125,8 @@
     color: #000000;
 
 }
-.plants_lover_text_container li{
-   
-    font-weight: 400 ;
-    font-size: 22px;
-}
 
-/* latest deals section */
+/* latest deals styles */
 .latest_deals_header{
     text-align: center;
     margin-bottom: 120px;
@@ -186,7 +184,7 @@
     font-weight: 600;
 }
 
-/* join section */
+/* join styles */
 .join{
     background-image: url(../media/news-letter-bg.png);
     height: 530px;
@@ -197,7 +195,6 @@
     font-weight: bold;
     font-size: 50px;
     color: #FFFFFF;
-    /* margin-bottom: 23px; */
 
 }
 .join_input{
@@ -216,8 +213,6 @@
 }
 .footer_sub_container{
     display: flex;
-    /* gap: 110px; */
-    /* justify-content: space-around; */
 }
 
 .footer_logo{
@@ -241,3 +236,190 @@
     padding-bottom: 8px;
   }
 
+/* mobile responsiveness */
+@media screen and (max-width:393px) {
+    /* shared styles */
+    .p_btn{
+        width: 171px;
+        height: 50px;
+    }
+
+    /* nav styles */
+    .nav_res{
+         visibility: hidden;   
+    }
+    .navbar{
+        margin: 0px 16px 0px 16px; 
+    }
+    .nav_logo_res{
+        max-width: 60px;
+        max-height: 38px;
+    }
+    .menu_cart_res{
+        max-width: 24px;
+        max-height: 24px;
+    }
+    .menu_cart{
+        margin-left: -400px;
+    }
+
+    /* banner styles */
+    .banner_container{
+        display: grid;
+        grid-template-rows: auto auto;
+        margin: 0px 0px 0px 0px;
+    }
+    .banner_container img{
+        width: 100%;
+        display: block;
+    }  
+    .banner_image{
+        grid-row: 1;
+        max-width: 393px;
+        max-height: 245px;
+        padding-top: 28px;
+    }
+    .banner_text{
+        margin: 28px 15px 65px 15px;
+        min-width: 0px;
+        max-width: 361px;
+    }
+    .banner_text_title{
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 13px;
+        max-width: 195px;
+    }
+    .banner_text_description{
+        font-size: 14px;
+    }
+
+    /* plants styles */ 
+    .plants_section_text{
+    margin-bottom: 28px;
+    } 
+    .plants_header{
+    font-size: 24px;
+    }
+    .plants_header_desc{
+    font-size: 14px;
+    padding: 16px 28px 0px 28px;
+    }
+    .plants_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 15px 41px 15px;
+    }
+    .plants_container img{
+     max-width: 171px;
+     max-height: 196px;
+    }
+   .plants_footer{
+    justify-items: center;
+    margin-bottom: 28px;
+   }
+   .plants_footer_title{
+    font-size: 16px;
+   }
+
+   /* plants lover styles */
+   .badge{
+    visibility: hidden;
+   }
+   .plants_lover_container{
+    display: grid;
+    margin: 0px 15px 140px 15px;
+   } 
+   .plants_lover_container img{ 
+    max-width: 358px;
+    max-height: 396px;
+   }
+   .plants_lover_text_container{
+    padding: 18px 0px 0px 0px;
+   }
+   .plants_lover_header{
+    font-size: 24px;
+   }
+   .plants_lover_text_container li{
+    font-size: 14px;
+   }
+   .plants_lover_text_des{
+    margin-left: -20px;
+   }
+
+   /* join styles*/
+   .join{
+    width: 393px;
+    height: 276px;
+   } 
+   .join_text{
+    font-size: 20px;
+   }
+   .join_input{
+    width: 150px;
+    height: 50px;
+   }  
+   .btn_res{
+    width: 103px;
+    height: 55px;
+   }
+
+   /* latest deals styles */
+   .latest_deals_header{
+    margin-bottom: 52px;
+    margin-left: 28px;
+    margin-right: 28px;
+   }
+   .deals_image_container{
+    display: grid;
+    margin: 0px 15px 40px 15px;
+    gap: 28px;
+   }
+   .deals_image_subcontainer{
+    display:grid;
+   }
+   .deals_img_01, .deals_img_02{
+    width: 360px;
+    height: 185px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+   }  
+   .deals_img_03{
+    width: 360px;
+    height: 185px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 14px;
+   }
+   .deals_img_03_shop{
+    font-size: 16px;
+   }
+
+
+   /* footer styles */
+   .footer_container{
+    display: grid;
+    margin: 50px 15px 50px 15px;  
+   }
+   .footer_sub_container{
+    display: grid;
+   } 
+   .footer_logo{
+    max-width: 359px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    margin-left: 20px;
+   }
+   .footer_sub_container li{
+    margin-bottom: 32px;
+   }
+   .footer_icon_container{
+    margin-left: 15px;
+   }
+   .footer_icon{
+    margin-right: 24px;
+   }
+   .footer_icon_twitter{
+     padding-bottom: 9px;
+   } 
+} 
